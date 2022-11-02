@@ -1,0 +1,15 @@
+*{padding: 0;margin:0;box-sizing: 0;}
+body{
+    margin:50px;
+}
+header{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+img{
+    height:100px;
+    width:100px;
+    margin-left:150px;
+}

@@ -1,0 +1,4 @@
+INDEX VERSION 1.131+E:\Super 150\Coding\Lec_08\.metadata\.plugins\org.eclipse.jdt.core
+1865797976.index
+4154025021.index
+761837282.index

@@ -1,0 +1,64 @@
+section{
+    height: 60vh;
+    width:50vh;
+    border: 3px solid red;
+    overflow: auto;
+    text-align: center;
+}
+ul li{
+    height: 10vh;
+    width:100vw;
+    border: 3px solid rgb(76, 40, 40);
+    text-decoration: none;
+}
+
+
+.wrap_container p span{
+    clear:left;
+}
+img{
+    height:300px;
+    width:400px;
+    float:left;
+}
+
+
+.flexBox{
+    background-image:radial-gradient(pink,rgb(255, 14, 14),rgb(219, 242, 13),rgb(239, 56, 19),white);
+    margin-top: 300px;
+    width:90vw;
+    height:95vh;
+    border:3px solid black;
+    background-color: blueviolet;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-content:space-around;
+    flex-direction: row;
+    gap:20px 30px;
+}
+
+.flexBox div{
+    height:200px;
+    width:150px;
+    
+}
+
+.flexBox div:nth-of-type(3)
+{
+    align-self: flex-start;
+
+    flex-grow: 1;
+}
+.flexBox div:nth-of-type(1)
+{
+    align-self: flex-end;
+
+    flex-shrink: 2;
+}
+.flexBox div:nth-of-type(5)
+{
+    align-self: flex-end;
+
+    flex-shrink: 2;
+}

@@ -1,0 +1,49 @@
+h1{
+    height:50px;
+    color: blue;
+    border:2px solid red;
+    border-radius: 10px 20px 50px 50px;
+    text-align: center;
+}
+section{
+    height:50vh;
+    background-color: lightblue;
+    border:3px solid black;
+}
+div{
+    height:100px;
+    width:50vw;
+    background-color: rgb(29, 188, 241);
+    border:8px dashed rgb(17, 243, 47);
+    transition:1s;
+}
+section:nth-of-type(2 )
+{
+    width:60vw;
+    height:100vh;
+    background-image: url("https://webneel.com/wallpaper/sites/default/files/images/08-2018/1-nature-wallpaper-grass-hd.preview.jpg");
+    background-repeat: no-repeat;
+    background-position:right;
+}
+div:nth-of-type(2)
+{
+    width:50%;
+    height:50%;
+    background-color: bisque;
+}
+section:nth-of-type(3)
+{
+    width:60vw;
+    height:100vh;
+}
+article{
+    font-size: 20px;;
+}
+li{
+    font-size: 2rem;;
+}
+div:hover{
+    border:8px dotted rgb(243, 179, 17);
+    background-color: brown;
+    color:white;
+}

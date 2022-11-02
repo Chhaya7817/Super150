@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            height:100vh;
+            width:100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        img{
+            height:80px;
+            width:80px;
+            animation-name: y;
+            animation-duration: 5s;
+            animation-iteration-count:10;
+            transition: 2sec;
+
+        }
+        .shadow{
+            height:10px;
+            width:50px;
+            background-color: rgb(70, 70, 131);
+            border-radius: 100%;
+            animation-name:shad;
+            animation-duration: 5s;
+            animation-iteration-count:10;
+            transition:2s;
+            opacity:0.5;
+
+        }
+        @keyframes y{
+            50%{
+
+               
+                transform: translateY(-250px) rotate(360deg);
+            }
+            100%{
+                transform:rotate(180deg);
+            }
+
+        }
+        @keyframes shad{
+            50%{
+                width:100px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="../images/chrome.jfif" alt="">
+        <div class="shadow"></div>
+    </div>
+</body>
+</html>

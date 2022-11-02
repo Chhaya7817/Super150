@@ -1,0 +1,89 @@
+.testimonial{
+    width:1440px;
+    margin:100px auto;
+    padding:30px;
+    background-color: antiquewhite;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+   
+}
+
+.card{
+    background-color: white;
+    border-radius: 10px;
+    margin:20px;
+    box-shadow:8px 8px 2px rgb(33, 26, 26) ;
+    box-shadow: 2 ;
+    padding:20px;
+    transition: 1s;
+    
+}
+
+.card-header{
+    display: flex;
+    margin-right:10px;
+    align-items: center;
+}
+img{
+    width: 80px;
+    height:80px;
+    border-radius: 50%;
+    margin-right:10px;
+    margin-bottom: 0%;
+}
+
+h3{
+    font-size: 20px;
+}
+
+.card-lead{
+    font-size: 1.5rem;
+    margin-top:10px;
+    font-weight: 500;
+    line-height: 1.3;
+}
+.qualification{
+    margin-top:0px;
+}
+
+.card--purple{
+    background-color: blueviolet;
+    background-image: url("../images/bg-pattern-quotation.svg");
+    background-repeat: no-repeat;
+    background-position: top 10px right 100px;
+}
+.card:nth-of-type(1)
+{
+    grid-column: 1/3;
+    color:white;
+   
+    
+}
+.card:nth-of-type(5)
+{
+    grid-column: 2/4;
+    background-color: black;
+    color:white;
+    /* grid-row:2/4; */
+   
+    
+
+}
+/* .card:nth-of-type(2)
+{
+    grid-row-end: 1;
+} */
+.card:nth-of-type(3)
+{
+    background-color: grey;
+    grid-column: 4/5;
+    grid-row:1/3;
+    color:white;
+   
+    
+}
+
+.card:hover{
+    /* transform: translateX(200px); */
+    scale:1.2;
+}

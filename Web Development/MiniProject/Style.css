@@ -1,0 +1,122 @@
+*{margin:0;padding:0;box-sizing: border-box;}
+
+body{
+    color:white;
+    background-color: black;
+}
+.homepage{
+    height:100vh;
+    width:100vw;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url("./Images/home-img.jpeg");
+}
+.homepage nav{
+    height:120px;
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    border-bottom: 0.5px solid rgb(76, 52, 52);
+    font-size: 24px;
+    position:sticky;
+    top:0;    
+    z-index: 4;
+}
+.homepage nav .content ul{
+    color:white;
+    display: flex;
+
+}
+.homepage nav .content ul li{
+    padding-right:20px;
+    list-style-type: none;
+
+}
+.homepage nav .content ul li a{
+    color:white;
+    text-decoration: none;
+}
+.homepage nav .rightcontent{
+    margin-right:20px;
+}
+.homepage .intro{
+    height:100vh;
+    
+    width:33%;
+    display: flex;
+    margin:200px;
+    justify-content: right;
+    flex-direction: column;
+}
+.homepage .intro h1{
+    font-size: 4rem;
+
+}
+.homepage .intro p{
+    font-size: 1.2rem;
+    margin-top: 20px;
+    opacity:0.6;
+}
+.homepage .intro .button{
+    height:50px;
+    width:200px;
+    font-size:1.2rem;
+    margin-top:20px;
+    display: flex;justify-content: center;
+    align-items: center;
+    background-color:rgb(245, 166, 63);
+    transition: 1s;
+}
+.homepage .intro .button:hover{
+    scale:1.2;
+}
+i{
+    font-size: 30px;
+}
+.i{
+    width: 30px;
+    height: 30px;
+}
+.about{
+    /* text-align: center; */
+    font-size: 2rem;
+
+}
+.about h1{
+    text-align: center;
+}
+.about h1 span{
+    color:rgb(255, 191, 0);
+}
+.about div{
+    padding-top: 100px;
+    height:100vh;
+    width:100%;
+    display: flex;
+}
+
+.about div aside{
+    width:50%;
+    font-size: 1.5rem;
+    padding-top: 80px;
+    padding-left: 80px;
+    align-items: left;
+
+}
+.about div aside h1{
+    text-align: left;
+}
+.about div aside button{
+    height:50px;
+    width:200px;
+    font-size:1.2rem;
+    margin-top:20px;
+    display: flex;justify-content: center;
+    align-items: center;
+    background-color:rgb(245, 166, 63);
+    transition: 1s;
+}
+main img{
+    float: left;
+}

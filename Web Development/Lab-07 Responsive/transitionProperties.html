@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            width:250px;
+            height:200px;
+            border:5px;
+            background-color: black;
+            margin:50px;
+            text-align: center;
+           transition-duration: 2s;
+            transition-property: all;
+            transition-delay: 0.2s;
+            font-weight:bold;
+            
+        }
+        .container:hover{
+            background-color: green;
+            width:600px;
+        }
+        .one{
+            background-color: red;
+            transition-timing-function: linear;
+        }
+        .two{
+            background-color: blue;
+            transition-timing-function:ease-in;
+        }
+        .three{
+            background-color: yellow;
+            transition-timing-function:ease-out;
+        }
+        .four{
+            background-color: blue;
+            transition-timing-function:cubic-bezier(.46,.84,.44,1);
+        }
+    </style>
+</head>
+<body>
+    <div class="container one">linera
+    </div>
+    <div class="container two">easein
+    </div>
+    <div class="container three">easeOut
+
+    </div>
+    <div class="container four">cubic bazier
+
+    </div>
+</body>
+</html>

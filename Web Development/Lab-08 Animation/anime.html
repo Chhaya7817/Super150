@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        section{
+            display: flex;
+            justify-content: space-between;
+
+        }
+        div{
+            height: 300px;
+            width:250px;
+            background-color: rgb(227, 8, 125);
+            border:5px solid black;
+            animation-name: slider;
+            animation-duration: 2s;
+            animation-direction: alternate-reverse;
+            animation-iteration-count: i5;
+           /* animation-delay: 2s;*/
+            animation-play-state:running;
+
+        }
+        @keyframes slider{
+            25%{
+                background-color: red;
+                width:350px;
+                height:50px;
+                border:10px solid;
+            }
+            50%{
+                background-color: blue;
+                width:500px;
+                height:60px;
+                border: 6px solid;
+            }
+            100%{
+                background-color: chartreuse;
+            }
+        }
+    </style>
+</head>
+<body>
+    <section>
+       <div></div>
+       <div></div>
+    </section>
+<br>
+    <section>
+        <div></div>
+        <div></div>
+     </section>
+   
+</body>
+</html>

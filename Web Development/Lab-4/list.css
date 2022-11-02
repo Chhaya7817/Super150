@@ -1,0 +1,45 @@
+body{
+    background-color: aqua;
+    font-size: large;
+}
+li:nth-of-type(2n+1)
+{
+    color:red;
+}
+h1::before{
+    content:"Demo List  ";
+}
+h1::after{
+    content:"";
+    content:"Final Heading \260E";
+    color:blueviolet;
+}
+section{
+    border:5px brown  solid;
+}
+section ul li{
+    border:inherit;
+}
+div{
+    height:50px;
+    width:100%;
+    border:3px solid pink;
+}
+
+div:nth-of-type(1)
+{
+    background-color: #fe22f3;
+}
+div:nth-of-type(2)
+{
+    background-color: #0e128a;
+}
+div:nth-of-type(3)
+{
+    background-color: #ae1aff;
+}
+div:nth-of-type(3)
+{
+    background-color: rgba(23,56,78,0.2);
+    color:hsl(352,100%,30%)
+}
