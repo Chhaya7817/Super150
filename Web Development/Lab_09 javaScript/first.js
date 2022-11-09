@@ -36,3 +36,4 @@ third();
 let x=null;
     console.log(x,typeof x);*/
     ageGroup();
+    
