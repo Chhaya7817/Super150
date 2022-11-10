@@ -54,7 +54,7 @@ Async keyword returns a new promise. It wraps the whole function into a promise 
 //     return "resolve";
 // }
 
-// abc().then(function(data){                            // this .then() is of promise abc
+// abc().then(function(data){                            //this .then() is of promise abc
                                                          // abc and fs.promises.readFile are both Promises
 //     console.log(data);
 // }).catch(function(err){
@@ -79,6 +79,7 @@ abc().then(function (data) {
 }).catch(function (err) {
     console.log(err);
 })
+
 
 
 
