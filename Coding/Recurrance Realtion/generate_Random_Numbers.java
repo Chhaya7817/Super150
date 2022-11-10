@@ -7,6 +7,7 @@ public class generate_Random_Numbers {
         for (int i = 0; i < 40; i++) {
             int rn=r.nextInt(high-low+1)+low;
             System.out.println(rn+" ");
+            
         }
     }
 }
