@@ -1,3 +1,4 @@
+import java.lang.*;
 import java.util.Stack;
 //reverse stack using semi stack
 public class Reverse_Stack {

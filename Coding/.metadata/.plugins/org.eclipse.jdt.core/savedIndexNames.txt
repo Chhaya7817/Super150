@@ -1,0 +1,1 @@
+INDEX VERSION 1.131+E:\Super150\Coding\.metadata\.plugins\org.eclipse.jdt.core

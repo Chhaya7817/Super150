@@ -5,7 +5,7 @@ public class PrintSubSequence {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
         System.out.println("Enter String");
-        String str=sc.next();
+        String str="Chhaya";
         String ans="";
         printpermutatiom(str, ans);
 
