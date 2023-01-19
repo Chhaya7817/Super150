@@ -119,4 +119,33 @@ public class Binary_Tree {
             boolean right=Search(node.right, item);
             return left||right;
      }
+
+     //maximum of tree
+     public int Max()
+     {
+        return Max(root);
+     }
+     private int Max(Node node)
+     {
+        if(node==null)  return Integer.MIN_VALUE;
+        int left=Max(node.left);
+        int right=Max(node.right);
+        return Math.max(left,Math.max(right,node.val));
+     }
+
+     //height of Binary Tree
+    public int height()
+    {
+        return height(root);
+    }
+    public int height(Node node)
+    {
+        if(node==null)
+        {
+            return -1;  //height of single node =0
+        }
+        int left=height(node.left);
+        int right=height(node.right);
+        return Math.max(left,right)+1;
+    }
 }
